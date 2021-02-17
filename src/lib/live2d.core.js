@@ -5910,19 +5910,18 @@ Q.setupProfile = function(aI, aJ) {
         aJ = true;
     }
     if (aJ) {
-        console.log("profile : " + aI.PROFILE_NAME);
+       
     }
     for (var aH in aI) {
         Q[aH] = aI[aH];
         if (aJ) {
-            console.log("  [" + aH + "] = " + aI[aH]);
+          
         }
     }
 }
 ;
 Q.init = function() {
     if (Q._$6b) {
-        console.log("Live2D %s", Q._$2s);
         Q._$6b = false;
         var aH = false;
         aH = true;
